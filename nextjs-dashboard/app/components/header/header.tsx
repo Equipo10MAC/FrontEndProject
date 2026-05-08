@@ -24,7 +24,7 @@ export default function Header (){
                 <div className={styles.container}>
                 <div className={styles.row}>
                     {/*Logotipo mundial */}
-                        <Link href="components/home" className={styles.link}>
+                        <Link href="/components/home" className={styles.link}>
                                 <Image
                                 src="/logos/Logo.png"
                                 alt="Mundial Connect Logo"
