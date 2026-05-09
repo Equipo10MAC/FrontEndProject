@@ -15,3 +15,11 @@ body {
     border: none;
     box-shadow: var(--shadow-md), var(--shadow-glow);
 }
+
+
+/*Se evita desbordamiento */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

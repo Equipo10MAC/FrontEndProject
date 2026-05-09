@@ -19,7 +19,7 @@ export default function Header (){
                 <LoginModal
                 open={loginOpen}
                 onClose={() => setLoginOpen(false)}
-            />
+                />
             {/*Se separa en tres partes el header para mostrar algo como LOGO/ MENU / ZONA DE PERFIL*/}
                 <div className={styles.container}>
                 <div className={styles.row}>
@@ -100,7 +100,7 @@ export default function Header (){
 
 
                             
-                            <Link href="/componentes/perfil" className={styles.link}>
+                            <Link href="/components/perfil" className={styles.link}>
                                         <Image
                                         src="/perfiles/fotoPerfil.jpg"
                                         alt="Usuario"
