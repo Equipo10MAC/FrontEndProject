@@ -20,9 +20,12 @@ export default function Header() {
         </ul>
 
         <div className={styles.actions}>
-          <button className={styles.iconButton}>🔍</button>
-          <button className={styles.iconButton}>🔔</button>
-          <button className={styles.avatar}>👤</button>
+
+
+          <Link href="/perfil" className={styles.avatar}>
+            👤
+          </Link>
+
           <button className={styles.loginButton}>Iniciar sesión</button>
         </div>
       </nav>
