@@ -98,7 +98,7 @@ export default function RestaurantList({
     }
 
 
-
+const randomImage = `/restaurante${Math.floor(Math.random() * 10) + 1}.jpg`;
 
 return (
 
@@ -133,7 +133,7 @@ return (
 
                                     name={restaurant.nombre}
 
-                                    image={"/restaurant1.jpg"}
+                                    image={`/restaurantes/restaurante${Math.floor(Math.random() * 10) + 1}.jpg`}
 
                                     rating={
                                         restaurant.rating?.toString() || "0"
