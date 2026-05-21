@@ -369,7 +369,7 @@ const initialForums: ForumCountry[] = [
         avatar: "🇳🇱",
         date: "16 jun, 15:35",
         votes: 88,
-        title: "Países Bajos puede dominar por bandas",
+        title: "Países Bajos puede dominar por bandasss",
         content: "La amplitud será clave para generar peligro.",
         comments: 19,
         category: "Previas",
